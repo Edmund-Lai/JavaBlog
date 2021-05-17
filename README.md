@@ -4,7 +4,7 @@
 
 ## Java
 
-1. [StringTable](https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog01/StringTable.md))
+1. [StringTable](https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog01/StringTable.md)
 
 ## Lab
 
