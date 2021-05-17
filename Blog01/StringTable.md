@@ -88,7 +88,7 @@ StringTable，也叫字符串常量池。如果您对**数据库连接池**有�
 
 在进行这一块内容的展开之前，我们不妨来看看JVM底层结构随jdk版本的变化，这里列出了从jdk6到jdk8的变化，从jdk8开始JVM底层没有太大结构性的调整，可以大致参考jdk8
 
-<img src="C:\Users\KONGBAI\Desktop\软件构造\博客\博客1\配图2.png" alt="image-20210501105958312" style="zoom: 33%;" />
+<img src="https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog01/appendix/%E9%85%8D%E5%9B%BE2.png" alt="配图2" style="zoom: 33%;" />
 
 我们主要关注StringTable的位置变化：从jdk6到jdk8，它分别在永久代、堆、堆中
 
@@ -128,7 +128,7 @@ class Memory {
 
 下图是对上述例子JVM中的堆、栈情况的说明（此图只是为了大致情况，栈帧局部变量表没有写全）
 
-<img src="C:\Users\KONGBAI\Desktop\软件构造\博客\博客1\配图1.png" alt="配图1" style="zoom:50%;" />
+<img src="https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog01/appendix/%E9%85%8D%E5%9B%BE1.png" alt="配图1" style="zoom:50%;" />
 
 如果您对这一块还有很多疑问，请不要着急，文章下面的内容还会对您的一部分疑问进行回答
 
