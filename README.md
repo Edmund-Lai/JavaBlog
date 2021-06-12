@@ -8,3 +8,4 @@
 
 ## Lab
 
+1. [lab3 brief analysis](https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog02/Lab3%20brief%20analysis.md)
