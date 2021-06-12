@@ -2,7 +2,7 @@
 
 > 说明：
 >
-> * 本篇blog仅针对[HIT 2021春 Software Construction Lab3]()
+> * 本篇blog仅针对[HIT 2021春 Software Construction Lab3](https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog02/instruction.pdf)
 > * 由于本次的Lab几乎没有任何往届的材料参考，所有的分析仅代表个人观点，欢迎任何的讨论与批评指正
 > * 基本按照Lab3的实验指导的顺序进行说明，重点在于个人开发时遇到的问题
 > * blog中所有的标题都是实验指导中对应的标题
@@ -41,7 +41,7 @@
 
 一方面，参考实验指导给出的图：
 
-<img src="D:\Typora\figure\image-20210612160422879.png" alt="image-20210612160422879" style="zoom: 67%;" />
+<img src="https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog02/figure1.png" alt="figure1" style="zoom: 67%;" />
 
 从图中和本能反应来说我们会很轻易地想到时间段是一个连续的概念。
 
@@ -151,7 +151,7 @@ BufferedReader br = new BufferedReader(fr);//对FileReader类对象进行装饰
 
 这里只做一个提醒，这一小节中实验指导给出了一个参考结构图：
 
-<img src="D:\Typora\figure\image-20210612190310444.png" alt="image-20210612190310444" style="zoom:67%;" />
+<img src="https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog02/figure2.png" alt="figure2" style="zoom:67%;" />
 
 个人的建议是：这张图仅仅作为参考，实际的情况最好按照您自己选择的方案进行设计，这里没有什么限制(~~本人被这张图坑惨了~~)。
 
