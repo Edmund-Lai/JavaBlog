@@ -358,7 +358,9 @@ I am happy to join with you today in what will go down in history as the greates
 
 ```java
 public static void main(String[] args) {
-    String stringInfo = "上述文本";
+    String stringInfo = "I am happy to join with you today in what " + 
+    			"will go down in history as the greatest demonstration " + 
+			"for freedom in the history of our nation.";
     Pattern pattern = Pattern.compile("happy");
     Matcher matcher = pattern.matcher(stringInfo);
     while (matcher.find()){
