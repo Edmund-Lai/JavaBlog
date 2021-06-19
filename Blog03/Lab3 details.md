@@ -116,7 +116,7 @@ public static void dateDurationFrame() {
         String[] dateStart = gotString.get(0).split("-");
         String[] dateEnd = gotString.get(1).split("-");
         if (dateStart.length > 3 || dateEnd.length > 3) {
-            JOptionPane.showMessageDialog(durationFrame, "日期输入格式有误");
+            JOptionPane.showMessageDialog(durationFrame, "日期输入格式有误");//point 4
             textList.get(0).setText("");
             textList.get(1).setText("");
             return;
@@ -232,6 +232,14 @@ enterButton.addActionListener(new ActionListener() {
 3. 利用int数值初始化排班表
 
 **注意：建议您以显式的提示信息，类似于“(yyyy-MM-dd)”这样，提示用户按照固定的输入格式输入，否则将难以解析实际的数值**
+
+#### point 4 - 弹窗提示
+
+简单来说就是使用如下的代码在当前窗口的基础上弹出一个有提示信息的窗口：
+
+```java
+JOptionPane.showMessageDialog(当前窗口, 提示信息);//当前窗口就是作为背景板的JFrame类对象
+```
 
 ### 常用控件和方法
 
