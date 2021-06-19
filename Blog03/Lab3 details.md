@@ -40,7 +40,7 @@ public class demoGUI {
         Container contentPane = frame.getContentPane();
         contentPane.setLayout(new FlowLayout());
 
-        //在“图层”上添加控件
+        //在容器上添加控件
         contentPane.add(new JLabel("Hello,World"));//一个JLabel对象
         contentPane.add(new JButton("测试"));//一个JButton对象
 
