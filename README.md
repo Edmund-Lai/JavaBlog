@@ -5,6 +5,7 @@
 ## Java
 
 1. [StringTable](https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog01/StringTable.md)
+2. [VCS](https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog04/VCS.md)
 
 ## Lab
 
