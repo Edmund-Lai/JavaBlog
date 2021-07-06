@@ -11,7 +11,7 @@
 
 Collection接口的实现、继承关系如下：
 
-<img src="D:\Typora\figure\figure1.png" alt="figure1" style="zoom:50%;" />
+<img src="https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog05/figure1.png" alt="figure1" style="zoom:30%;" />
 
 Collection接口中有声明如下常用的方法：
 
@@ -67,7 +67,7 @@ Collection接口中有声明如下常用的方法：
 
 Map接口的实现、继承关系如下：
 
-<img src="D:\Typora\figure\figure2.png" alt="figure2" style="zoom:50%;" />
+<img src="https://github.com/Edmund-Lai/JavaBlog/blob/main/Blog05/figure2.png" alt="figure2" style="zoom:30%;" />
 
 Map接口中有声明如下的常用方法：
 
